@@ -2,6 +2,6 @@
 > Membros:
 - Eduardo Talarico de Paula
 - Yan Falcão Callegaris
-- Gui
+- Guilherme Altobeli Crespo
 - Klaus Weber Batista Rodrigues
 - Matheus Barbosa da Rocha
