@@ -177,7 +177,7 @@ Junto com o python utilizamos suas bibliotecas OpenCV, Face recognition, Numpy e
 OpenCV é a principal biblioteca de código aberto para a visão computacional, processamento de imagem e aprendizagem de máquina, e agora apresenta a aceleração de GPU para operação em tempo real
 <br>
 
-<img alt="plano_desenvolvimento_aplicacao4" src="img/plano_desenvolvimento_aplicacao4.png" width="300px"/>
+<img alt="plano_desenvolvimento_aplicacao4" src="img/plano_desenvolvimento_aplicacao4.png" width="200px"/>
 <br>
 
 O Face Recognition é uma ferramenta para conhecer e manipular rostos do Python ou da linha de comando com a biblioteca de reconhecimento facial mais simples do mundo.
