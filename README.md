@@ -18,11 +18,11 @@ Prof. Fabricio Henrique
 <br>
 
 Integrantes:
-- Guilherme Altobeli Crespo <span styele="float:right;">- N44567-0</span>
-- Yan Falcão Callegaris <span styele="float:right;">- N4889C-9</span>
-- Klaus Weber Batista Rodrigues <span styele="float:right;">- F1265B-3</span>
-- Eduardo Talarico de Paula <span styele="float:right;">- N3881A-0</span>
-- Matheus Rocha <span styele="float:right;">- N415DC-1</span>
+- Guilherme Altobeli Crespo <div style="text-align: right">- N44567-0</div>
+- Yan Falcão Callegaris <div style="text-align: right">- N4889C-9</div>
+- Klaus Weber Batista Rodrigues <div style="text-align: right">- F1265B-3</div>
+- Eduardo Talarico de Paula <div style="text-align: right">- N3881A-0</div>
+- Matheus Rocha <div style="text-align: right">- N415DC-1</div>
 
 ---
 ### Índice
