@@ -7,7 +7,6 @@ caminho = 'rostos'
 imagens = []
 classeNomes = []
 minhaLista = os.listdir(caminho)
-#print(minhaLista)
 
 for item in minhaLista:
     imgAtual = cv2.imread(f'{caminho}/{item}')
@@ -35,7 +34,6 @@ while True:
     imgS = cv2.resize(img, (0,0),None,0.25,0.25)
     imgS = cv2.cvtColor(imgS, cv2.COLOR_BGR2RGB)
 
-
     rostoAtual = face_recognition.face_locations(imgS)
     encodamentoAtual = face_recognition.face_encodings(imgS, rostoAtual)
 
@@ -53,7 +51,6 @@ while True:
             cv2.rectangle(img,(x1,y1),(x2,y2),(0,255,0),2)
             cv2.rectangle(img,(x1,y2-35),(x2,y2),(0,255,0),cv2.FILLED)
             cv2.putText(img,nome,(x1+6,y2-6),cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
-
 
     cv2.imshow('Webcam', img)
     cv2.waitKey(1)
