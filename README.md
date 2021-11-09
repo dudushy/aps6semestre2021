@@ -98,7 +98,7 @@ OpenCV é uma biblioteca Multiplataforma dedicada a projetos de visão computaci
 Face Recognition  é uma ferramenta de processamento de imagens onde ela faz o mapeamento da imagem no caso um rosto para que possa estar efetuando o cálculo de padrões onde é feito o encoding das imagens para reconhecimento facial.
 <br>
 
-NumPy é uma biblioteca de programação em linguagem ptyhon onde suporta um grande processamento de matrizes, arranjos e muitas funções matemáticas de alto nível de operação
+NumPy é uma biblioteca de programação em linguagem python onde suporta um grande processamento de matrizes, arranjos e muitas funções matemáticas de alto nível de operação
 (OS) é uma biblioteca padrão do Python onde é usada para operar todo os derivados dependentes do S.O(Sistema Operacional). 
 <br>
 
