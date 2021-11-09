@@ -21,14 +21,14 @@ Integrantes:
 ---
 ### Índice
 
-[Objetivo do Trabalho](#objetivo-do-trabalho)
-[Introdução](#introdução)
-[Referencial Teórico](#referencial-teórico)
-[Plano de desenvolvimento da aplicação](#plano-de-desenvolvimento-da-aplicação)
-[Projeto (estrutura) do programa](#projeto-estrutura-do-programa)
-[Relatório com as linhas de código](#relatório-com-as-linhas-de-código)
-[Fonte Bibliografica e Link do projeto](#fonte-bibliografica-e-link-do-projeto)
-[Ficha de atividades práticas supervisionadas](#ficha-de-atividades-práticas-supervisionadas)
+- [Objetivo do Trabalho](#objetivo-do-trabalho)
+- [Introdução](#introdução)
+- [Referencial Teórico](#referencial-teórico)
+- [Plano de desenvolvimento da aplicação](#plano-de-desenvolvimento-da-aplicação)
+- [Projeto (estrutura) do programa](#projeto-estrutura-do-programa)
+- [Relatório com as linhas de código](#relatório-com-as-linhas-de-código)
+- [Fonte Bibliografica e Link do projeto](#fonte-bibliografica-e-link-do-projeto)
+- [Ficha de atividades práticas supervisionadas](#ficha-de-atividades-práticas-supervisionadas)
 
 ---
 ## Objetivo do Trabalho
