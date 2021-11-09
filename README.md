@@ -3,5 +3,5 @@
 - Eduardo Talarico de Paula
 - Yan Falcão Callegaris
 - Gui
-- Klaus
+- Klaus Weber Batista Rodrigues
 - Matheus Barbosa da Rocha
