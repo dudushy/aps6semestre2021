@@ -177,7 +177,7 @@ Junto com o python utilizamos suas bibliotecas OpenCV, Face recognition, Numpy e
 OpenCV é a principal biblioteca de código aberto para a visão computacional, processamento de imagem e aprendizagem de máquina, e agora apresenta a aceleração de GPU para operação em tempo real
 <br>
 
-<img alt="plano_desenvolvimento_aplicacao4" src="img/plano_desenvolvimento_aplicacao4.png" />
+<img alt="plano_desenvolvimento_aplicacao4" src="img/plano_desenvolvimento_aplicacao4.png" width="300px"/>
 <br>
 
 O Face Recognition é uma ferramenta para conhecer e manipular rostos do Python ou da linha de comando com a biblioteca de reconhecimento facial mais simples do mundo.
@@ -189,7 +189,7 @@ O Face Recognition é uma ferramenta para conhecer e manipular rostos do Python 
 O NumPy é uma extensão de um Array Python, que lida apenas com Arrays Unidimensionais e oferece menos funcionalidade. Os Arrays NumPy são equipados com um grande número de funções e operadores que ajudam a escrever rapidamente códigos de alto desempenho para vários tipos de cálculos que discutimos acima.
 <br>
 
-<img alt="plano_desenvolvimento_aplicacao6" src="img/plano_desenvolvimento_aplicacao6.png" />
+<img alt="plano_desenvolvimento_aplicacao6" src="img/plano_desenvolvimento_aplicacao6.png" width="300px"/>
 <br>
 
 Agora a biblioteca OS contém módulos embutidos (escritos em C) que fornecem acesso à funcionalidade do sistema, como E/S de arquivos que de outra forma seriam inacessíveis para programadores Python, bem como módulos escritos em Python que fornecem soluções padronizadas para muitos problemas que ocorrem em programação cotidiana.
