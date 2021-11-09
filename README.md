@@ -49,9 +49,6 @@ Matheus Rocha | N415DC-1
 <br>
 
 - [Fonte Bibliografica e Link do projeto](#fonte-bibliografica-e-link-do-projeto)
-<br>
-
-- [Ficha de atividades práticas supervisionadas](#ficha-de-atividades-práticas-supervisionadas)
 
 ---
 ## Objetivo do Trabalho
@@ -66,6 +63,8 @@ O objetivo do trabalho é criar uma ferramenta computacional para análise e cla
 <br>
 
 Esse tipo de software pode ser usado para várias coisas como por exemplo pode ser usado para identificar doenças em algum tipo de exame que gere imagens, outro exemplo é saber o sexo da pessoa, a emoção que ela está sentindo, entre outros vários softwares de reconhecimento.
+<br>
+
 Para realizarmos o projeto usamos algumas ferramentas que facilitam o nosso trabalho, para criar o nosso programa utilizamos a linguagem Python.
 <br>
 
@@ -109,19 +108,30 @@ Utilizamos os melhores recursos encontrados para chegar ao resultado final de no
 ## Referencial Teórico
 
 A indústria de reconhecimento facial fez um progresso impressionante em pouco tempo e não só facial, mas classificação de formas também faz parte dessa evolução. Hoje, com aplicativos instalados no seu celular você consegue desbloquear eles só com o reconhecimento facial, e não só desbloquear, mas fazer várias funções que eles podem fazer com o reconhecimento facial ou de imagem.
+<br>
+
 O primeiro relato do desenvolvimento do reconhecimento facial foi em 1964. 
 Com um livro de fotos e uma fotografia de investigação, Bledsoe usou um programa de computador para cruzar a identidade do suspeito com outra no livro de fotos. Apesar de seu método ter se tornado popular, na época, ele era caro e lento em termos computacionais: o pesquisador conseguia processar somente 40 fotos por hora. Depois disso essa tecnologia foi evoluindo e evoluindo até chegar ao ponto que estamos hoje.
 Uma parte disso é realizado pela manipulação de imagem, a manipulação de uma imagem por um computador, no qual tem-se como entrada e saída uma imagem, é chamada de Processamento Digital de Imagens. O objetivo de se usar esse processamento é melhorar o aspecto visual das imagens possibilitando uma melhor interpretação, facilitando a extração de informações das mesmas.
+<br>
+
 Pessoas estão familiarizadas com o reconhecimento facial por causa do Face ID do Iphone, pois ele usa o reconhecimento para desbloquear o celular, ele simplesmente a identifica e reconhece como sendo a proprietária única do dispositivo, limitando o acesso de outros. O Face ID garante autenticação intuitiva e segura e é ativado pelo sistema de câmera TrueDepth de última geração, que usa tecnologias avançadas para mapear a geometria do rosto com precisão.
 <br>
 
-As leis também podem usar o reconhecimento facial, e as agências de aplicação da lei em vários países estão usando cada vez mais a tecnologia. A polícia tirou fotos de prisioneiros da polícia e as comparou com imagens de bancos de dados de reconhecimento facial locais, estaduais e federais. Assim que a foto do prisioneiro for tirada, ela será adicionada ao banco de dados para verificação quando a polícia fizer uma busca criminal.
+As leis também podem usar o reconhecimento facial, e as agências de aplicação da lei em vários países estão usando cada vez mais a tecnologia. A polícia tirou fotos de prisioneiros da polícia e as comparou com imagens de bancos de dados de reconhecimento facial locais, estaduais e federais.
+<br>
+
+Assim que a foto do prisioneiro for tirada, ela será adicionada ao banco de dados para verificação quando a polícia fizer uma busca criminal.
+<br>
+
 O reconhecimento facial móvel permite que os funcionários usem smartphones, tablets ou outros dispositivos portáteis para tirar fotos de motoristas ou pedestres no local e imediatamente compará-los com outras fotos em um ou mais bancos de dados de reconhecimento facial para tentar identificar.
 O reconhecimento facial ajuda a identificar terroristas ou outros criminosos, facilita o rastreamento de assaltantes, ladrões e invasores.
 <br>
 
 Para conseguir fazer um programa de reconhecimento facial além de utilizar o python também utilizamos bibliotecas para nos ajudar no processo.
 Uma dessas bibliotecas foi o Opencv.
+<br>
+
 Opencv é uma biblioteca de código aberto útil para aplicações de visão computacional, como análise de vídeo e análise de imagem. OpenCV é escrito em C ++ e possui mais de 2.500 algoritmos otimizados. Muito utilizado quando criamos aplicativos para visão computacional que não queremos construir do zero, podemos usar esta biblioteca para começar a nos concentrar nos problemas do mundo real. Existem muitas empresas que usam essa biblioteca hoje, como Google, Amazon, Microsoft e Toyota. Muitos pesquisadores e desenvolvedores contribuem. 
 <br>
 
@@ -141,12 +151,19 @@ Agora com o nome de cada pessoa na imagem, nota se que mesmo de uma imagem do ce
 <br>
 
 Também utilizamos o NumPy, que é o pacote básico de computação científica em Python. É uma biblioteca Python que fornece objetos de matriz multidimensional, vários objetos derivados (como matrizes e matrizes mascaradas) e várias rotinas para realizar operações rápidas em matrizes, incluindo matemática, lógica, operações de forma, classificação, seleção. Discreta Transformada de Fourier, álgebra linear básica, operações estatísticas básicas, simulação aleatória, etc.
+<br>
+
 Tendo conhecimento de todas essas informações estávamos apto para conseguir fazer toda a nossa aps.
 
 ---
 ## Plano de desenvolvimento da aplicação
 
-Trabalho em equipe é muito importante e essencial, pois se a sua equipe não está satisfeita, eles não iram conseguir dar o máximo de si. A primeira parte do nosso Plano de desenvolvimento foi fazermos uma reunião e discutir todas as ideias de todos os integrantes do grupo, primeiramente conversamos sobre o processamento de imagens em si, fazendo um levantamento de requisitos, como por exemplo o que deveria ser, o que poderíamos fazer, como poderíamos fazer, o que poderíamos usar de recursos, após termos uma ideia inicial decidimos que seria melhor dividir o nosso grupo em pequenas equipes, cada uma responsável pela entrega de algo no projeto, como por exemplo um grupo no desenvolvimento python, para fazermos o código que processa as propriedades de uma  imagem e utiliza as para algum outro processamento da mesma , enquanto outro grupo cuidava de todo o objetivo logico do nosso objetivo estipulado.
+Trabalho em equipe é muito importante e essencial, pois se a sua equipe não está satisfeita, eles não iram conseguir dar o máximo de si.
+<br>
+
+A primeira parte do nosso Plano de desenvolvimento foi fazermos uma reunião e discutir todas as ideias de todos os integrantes do grupo, primeiramente conversamos sobre o processamento de imagens em si, fazendo um levantamento de requisitos, como por exemplo o que deveria ser, o que poderíamos fazer, como poderíamos fazer, o que poderíamos usar de recursos, após termos uma ideia inicial decidimos que seria melhor dividir o nosso grupo em pequenas equipes, cada uma responsável pela entrega de algo no projeto, como por exemplo um grupo no desenvolvimento python, para fazermos o código que processa as propriedades de uma  imagem e utiliza as para algum outro processamento da mesma , enquanto outro grupo cuidava de todo o objetivo logico do nosso objetivo estipulado.
+<br>
+
 Observando alguns vídeos de projetos semelhantes ao nosso objetivo e algumas páginas para fazermos o software, tivemos uma noção maior de como o trabalho seria feito.
 <br>
 
@@ -162,37 +179,43 @@ Para fazermos o identificador facial, utilizamos a linguagem python e algumas de
 Obs: O link dos projetos estará nas fontes bibliograficas.
 <br>
 
-Agora precisamos usar nosso objetivo para fazer isso. Python é muito famoso por sua sintaxe de programação simples, legibilidade e comandos tornam a codificação mais fácil e eficiente, razão pela qual é a linguagem de programação mais popular e preferida. Ele foi originalmente projetado por Guido van Rossum em 1991 e desenvolvido pela Python Software Foundation. Ele é desenvolvido principalmente para enfatizar a legibilidade do código e sua sintaxe permite que os programadores expressem conceitos em menos linhas de código. Quando foi lançado pela primeira vez, usava menos código para expressar conceitos do que Java, C ++ e C.
+Agora precisamos usar nosso objetivo para fazer isso. Python é muito famoso por sua sintaxe de programação simples, legibilidade e comandos tornam a codificação mais fácil e eficiente, razão pela qual é a linguagem de programação mais popular e preferida.
 <br>
 
-Seu conceito de design também é muito bom. Seu objetivo principal é fornecer legibilidade de código e produtividade de desenvolvedor de alto nível. Quando apareceu pela primeira vez, era capaz de fornecer herança, vários tipos de dados principais, tratamento de exceções e funções para classes.
+Ele foi originalmente projetado por Guido van Rossum em 1991 e desenvolvido pela Python Software Foundation. Ele é desenvolvido principalmente para enfatizar a legibilidade do código e sua sintaxe permite que os programadores expressem conceitos em menos linhas de código. Quando foi lançado pela primeira vez, usava menos código para expressar conceitos do que Java, C ++ e C.
+<br>
+
+Seu conceito de design também é muito bom. Seu objetivo principal é fornecer legibilidade de código e produtividade de desenvolvedor de alto nível.
+<br>
+
+Quando apareceu pela primeira vez, era capaz de fornecer herança, vários tipos de dados principais, tratamento de exceções e funções para classes.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao3" src="img/plano_desenvolvimento_aplicacao3.png" />
 <br>
 
-Junto com o python utilizamos suas bibliotecas OpenCV, Face recognition, Numpy e OS para facilitar o processo.
+Junto com o python utilizamos suas bibliotecas **OpenCV**, **Face recognition**, **Numpy** e **OS** para facilitar o processo.
 <br>
 
-OpenCV é a principal biblioteca de código aberto para a visão computacional, processamento de imagem e aprendizagem de máquina, e agora apresenta a aceleração de GPU para operação em tempo real
+**OpenCV** é a principal biblioteca de código aberto para a visão computacional, processamento de imagem e aprendizagem de máquina, e agora apresenta a aceleração de GPU para operação em tempo real
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao4" src="img/plano_desenvolvimento_aplicacao4.png" width="200px"/>
 <br>
 
-O Face Recognition é uma ferramenta para conhecer e manipular rostos do Python ou da linha de comando com a biblioteca de reconhecimento facial mais simples do mundo.
+O **Face Recognition** é uma ferramenta para conhecer e manipular rostos do Python ou da linha de comando com a biblioteca de reconhecimento facial mais simples do mundo.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao5" src="img/plano_desenvolvimento_aplicacao5.png" />
 <br>
 
-O NumPy é uma extensão de um Array Python, que lida apenas com Arrays Unidimensionais e oferece menos funcionalidade. Os Arrays NumPy são equipados com um grande número de funções e operadores que ajudam a escrever rapidamente códigos de alto desempenho para vários tipos de cálculos que discutimos acima.
+O **NumPy** é uma extensão de um Array Python, que lida apenas com Arrays Unidimensionais e oferece menos funcionalidade. Os Arrays **NumPy** são equipados com um grande número de funções e operadores que ajudam a escrever rapidamente códigos de alto desempenho para vários tipos de cálculos que discutimos acima.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao6" src="img/plano_desenvolvimento_aplicacao6.png" width="300px"/>
 <br>
 
-Agora a biblioteca OS contém módulos embutidos (escritos em C) que fornecem acesso à funcionalidade do sistema, como E/S de arquivos que de outra forma seriam inacessíveis para programadores Python, bem como módulos escritos em Python que fornecem soluções padronizadas para muitos problemas que ocorrem em programação cotidiana.
+Agora a biblioteca **OS** contém módulos embutidos (escritos em C) que fornecem acesso à funcionalidade do sistema, como E/S de arquivos que de outra forma seriam inacessíveis para programadores Python, bem como módulos escritos em Python que fornecem soluções padronizadas para muitos problemas que ocorrem em programação cotidiana.
 <br>
 
 Para mostrar as informações desse software utilizamos a webcam, com OpenCv para nos mostrar de forma mais clara a área do rosto, e também o nome da pessoa sendo reconhecida.
@@ -201,10 +224,10 @@ Para mostrar as informações desse software utilizamos a webcam, com OpenCv par
 <img alt="plano_desenvolvimento_aplicacao7" src="img/plano_desenvolvimento_aplicacao7.png" />
 <br>
 
-Agora que já temos o processamento da imagem e o processamento da webcam em tempo real com as informações que precisávamos. Com o código pronto, apenas subimos os itens no repositório do github para que a equipe inteira tenha a versão finalizada do projeto.
+Agora que já temos o processamento da imagem e o processamento da webcam em tempo real com as informações que precisávamos. Com o código pronto, apenas subimos os itens no repositório do **github** para que a equipe inteira tenha a versão finalizada do projeto.
 <br>
 
-O GitHub é uma rede social de desenvolvedores. A primeira parte do nome, “Git”, é por causa da utilização do sistema de controle de versão e a segunda parte, “Hub”, tem a ver com a conexão entre profissionais de programação de qualquer lugar do mundo.
+O GitHub é uma **rede social de desenvolvedores**. A primeira parte do nome, “Git”, é por causa da utilização do sistema de controle de versão e a segunda parte, “Hub”, tem a ver com a conexão entre profissionais de programação de qualquer lugar do mundo.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao8" src="img/plano_desenvolvimento_aplicacao8.png" />
@@ -262,19 +285,19 @@ Primeiramente importamos as bibliotecas necessárias para o funcionamento de tod
 <img alt="relatorio_linhas_codigo1" src="img/relatorio_linhas_codigo1.png" />
 <br>
 
-Após realizarmos as importações, o próximo passo é definir o caminho (local onde as fotos de referência estão arquivadas) e inicializarmos as listas de imagens, nomes e fotos na pasta rostos.
+Após realizarmos as importações, o próximo passo é definir o caminho (local onde as fotos de referência estão arquivadas) e inicializarmos as listas de imagens, nomes e fotos na pasta `rostos`.
 <br>
 
 <img alt="relatorio_linhas_codigo2" src="img/relatorio_linhas_codigo2.png" />
 <br>
 
-Neste trecho, percorreremos por todas as imagens dentro da pasta rostos, adicionando elas na lista de imagens e salvando seus respectivos nomes na lista de nomes. Terminado o processo, será impresso na tela os nomes adquiridos.
+Neste trecho, percorreremos por todas as imagens dentro da pasta `rostos`, adicionando elas na lista de imagens e salvando seus respectivos nomes na lista de nomes. Terminado o processo, será impresso na tela os nomes adquiridos.
 <br>
 
 <img alt="relatorio_linhas_codigo3" src="img/relatorio_linhas_codigo3.png" />
 <br>
 
-Em seguida, definimos a função encontrarEncodamento, que receberá a lista de imagens carregadas. Dentro da função, iniciaremos uma nova lista chamada listaEncodamento que armazenará os dados e coordenadas de cada imagem com o loop for, retornando no final, a lista completa com as informações.
+Em seguida, definimos a função `encontrarEncodamento`, que receberá a lista de imagens carregadas. Dentro da função, iniciaremos uma nova lista chamada `listaEncodamento` que armazenará os dados e coordenadas de cada imagem com o loop for, retornando no final, a lista completa com as informações.
 <br>
 
 <img alt="relatorio_linhas_codigo4" src="img/relatorio_linhas_codigo4.png" />
@@ -292,7 +315,7 @@ Criando variável para captura de tela, com entrada de qualquer câmera no compu
 <img alt="relatorio_linhas_codigo6" src="img/relatorio_linhas_codigo6.png" />
 <br>
 
-Iniciamos um loop infinito, que lerá cada frame capturado pela câmera conectada em tempo real. Redimensionando e convertendo as cores das imagens vistas para logo em seguida analisar os dados com maior facilidade e identificar os rostos que estão aparecendo na câmera com a função face_locations da biblioteca face_recognition. Salvando na variável rostoAtual, para depois utilizar a função face_encodings, onde serão calculadas as coordenadas desses rostos que simultaneamente estão sendo capturados pela câmera e salvos na variável encodamentoAtual.  
+Iniciamos um loop infinito, que lerá cada frame capturado pela câmera conectada em tempo real. Redimensionando e convertendo as cores das imagens vistas para logo em seguida analisar os dados com maior facilidade e identificar os rostos que estão aparecendo na câmera com a função `face_locations` da biblioteca `face_recognition`. Salvando na variável `rostoAtual`, para depois utilizar a função `face_encodings`, onde serão calculadas as coordenadas desses rostos que simultaneamente estão sendo capturados pela câmera e salvos na variável `encodamentoAtual`.  
 <br>
 
 <img alt="relatorio_linhas_codigo7" src="img/relatorio_linhas_codigo7.png" />
@@ -338,8 +361,3 @@ https://pypi.org/project/face-recognition/
 <br>
 
 https://medium.com/mlcrunch/face-detection-using-dlib-hog-198414837945
-
----
-## Ficha de atividades práticas supervisionadas
-
-filler :test_tube:
