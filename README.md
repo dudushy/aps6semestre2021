@@ -1,11 +1,12 @@
-<img align="center" alt="UNIP" width="100px" src="img/UNIP.png" />
+<p align="center">
+    <img alt="UNIP" width="100px" src="img/UNIP.png" />
 
-# UNIP - Universidade Paulista
+    # UNIP - Universidade Paulista
 
-## Ciência da Computação (CC)
+    ## Ciência da Computação (CC)
 
-## DESENVOLVIMENTO DE UM SISTEMA COMPUTACIONAL PARA ANÁLISE E CLASSIFICAÇÃO DE FORMAS
-
+    ## DESENVOLVIMENTO DE UM SISTEMA COMPUTACIONAL PARA ANÁLISE E CLASSIFICAÇÃO DE FORMAS
+</p>
 Link do github: https://github.com/dudushy/aps6semestre2021 <br>
 Disciplina: Processamento de Imagem <br>
 Prof. Fabricio Henrique <br>
