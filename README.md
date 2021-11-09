@@ -8,9 +8,12 @@
 
 <h2 align="center">DESENVOLVIMENTO DE UM SISTEMA COMPUTACIONAL PARA ANÁLISE E CLASSIFICAÇÃO DE FORMAS</h2>
 
-Link do github: https://github.com/dudushy/aps6semestre2021 <br>
-Disciplina: Processamento de Imagem <br>
-Prof. Fabricio Henrique <br>
+Link do github: https://github.com/dudushy/aps6semestre2021
+<br>
+Disciplina: Processamento de Imagem
+<br>
+Prof. Fabricio Henrique
+<br>
 Integrantes:
 - Guilherme Altobeli Crespo - N44567-0
 - Yan Falcão Callegaris - N4889C-9
