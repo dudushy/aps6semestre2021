@@ -10,10 +10,13 @@
 
 Link do github: https://github.com/dudushy/aps6semestre2021
 <br>
+
 Disciplina: Processamento de Imagem
 <br>
+
 Prof. Fabricio Henrique
 <br>
+
 Integrantes:
 - Guilherme Altobeli Crespo - N44567-0
 - Yan Falcão Callegaris - N4889C-9
