@@ -1,12 +1,12 @@
 <p align="center">
-<img alt="UNIP" width="100px" src="img/UNIP.png" />
+<img alt="UNIP" width="200px" src="img/UNIP.png" />
+</p>
 
 <h1 align="center">UNIP - Universidade Paulista</h1>
 
 <h2 align="center">Ciência da Computação (CC)</h2>
 
 <h2 align="center">DESENVOLVIMENTO DE UM SISTEMA COMPUTACIONAL PARA ANÁLISE E CLASSIFICAÇÃO DE FORMAS</h2>
-</p>
 
 Link do github: https://github.com/dudushy/aps6semestre2021 <br>
 Disciplina: Processamento de Imagem <br>
