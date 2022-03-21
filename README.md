@@ -56,16 +56,16 @@ Matheus Rocha | N415DC-1
 Hoje no mercado de trabalho da programação já acabou aquela visão de que o programador ficava o dia inteiro sentado na frente de um computador sem ter contato com pessoas e isolado do mundo lá fora com apenas paredes em sua volta, hoje o programador trabalha em grupos ou em coworkings com espaços abertos e várias pessoas para conversar e trocar ideias.
 <br>
 
-O objetivo deste trabalho não é apenas sentar na frente de seu notebook, ligar o spotify e codificar, mas sim ter um aprendizado em grupo discutindo várias ideias e hipóteses para que quando nos formarmos já termos essas experiências de trabalhar sempre em conjunto com pessoas, pois assim como a tecnologia sempre está mudando, precisamos mudar também para não virarmos dinossauros.
+O objetivo deste trabalho não é apenas sentar na frente de seu notebook, ligar o spotify e codificar, mas sim ter um aprendizado em grupo discutindo várias ideias e hipóteses para que quando nos formarmos já termos essas experiências de trabalhar sempre em conjunto com pessoas, pois, assim como a tecnologia sempre está mudando, precisamos mudar também para não virarmos dinossauros.
 <br>
 
 O objetivo do trabalho é criar uma ferramenta computacional para análise e classificação de formas a partir de imagem, ou seja, um programa que reconheça padrões dentro de uma imagem e consiga nos retornar uma informação útil a partir dela. Decidimos fazer um programa para estipular a idade da pessoa com base no seu rosto.
 <br>
 
-Esse tipo de software pode ser usado para várias coisas como por exemplo pode ser usado para identificar doenças em algum tipo de exame que gere imagens, outro exemplo é saber o sexo da pessoa, a emoção que ela está sentindo, entre outros vários softwares de reconhecimento.
+Esse tipo de software pode ser usado para várias coisas como, por exemplo, pode ser usado para identificar doenças em algum tipo de exame que gere imagens, outro exemplo é saber o sexo da pessoa, a emoção que ela está sentindo, entre outros vários softwares de reconhecimento.
 <br>
 
-Para realizarmos o projeto usamos algumas ferramentas que facilitam o nosso trabalho, para criar o nosso programa utilizamos a linguagem Python.
+Para realizarmos o projeto usamos algumas ferramentas que facilitam o nosso trabalho, nosso programa utiliza a linguagem Python.
 <br>
 
 O Python foi criado no início dos anos 1990 por Guido van Rossum  na Holanda como o sucessor de uma linguagem chamada ABC.
@@ -85,11 +85,11 @@ De forma simples, podemos descrever a tecnologia de reconhecimento facial como u
 Embora essa tecnologia possa parecer fora de alcance, pode-se dizer que faz parte de nossas vidas diárias. Afinal, desde que pesquisemos em plataformas como Google Fotos ou Adobe Photos, os rastreadores da tecnologia tomarão medidas e cálculos e filtrarão uma série de faces para garantir que o processo todo do reconhecimento seja concluído.
 <br>
 
-Alem disso, o reconhecimento facial está mais presente que você pensa seu próprio celular tem o modo de desbloqueio de tela por reconhecimento facial. 
-Basicamente, o reconhecimento facial funcionam fazendo um cálculo dos principais pontos do rosto como, olhos, boca, nariz a Internet, verificando cada medida e padrões de rostos em um banco de imagens criado pela biblioteca da aplicação. 
+Além disso, o reconhecimento facial está mais presente que você pensa seu próprio celular tem o modo de desbloqueio de tela por reconhecimento facial.
+Basicamente, o reconhecimento facial funciona fazendo um cálculo dos principais pontos do rosto como, olhos, boca, nariz a Internet, verificando cada medida e padrões de rostos em um banco de imagens criado pela biblioteca da aplicação.
 <br>
 
-Para realizarmos nosso trabalho utilizamos algumas bibliotecas do python como  OpenCV, Face Recognition, Numpy e OS.
+Para realizarmos nosso trabalho utilizamos algumas bibliotecas do Python como  OpenCV, Face Recognition, Numpy e OS.
 <br>
 
 OpenCV é uma biblioteca Multiplataforma dedicada a projetos de visão computacional OpenCV possui módulos de Processamento de Imagens e Vídeo I/O, Estrutura de dados, Álgebra Linear, GUI (Interface gráfica do usuário).
@@ -99,10 +99,10 @@ Face Recognition  é uma ferramenta de processamento de imagens onde ela faz o m
 <br>
 
 NumPy é uma biblioteca de programação em linguagem python onde suporta um grande processamento de matrizes, arranjos e muitas funções matemáticas de alto nível de operação
-(OS) é uma biblioteca padrão do Python onde é usada para operar todo os derivados dependentes do S.O(Sistema Operacional). 
+(OS) é uma biblioteca padrão do Python onde é usada para operar todos os derivados dependentes do S.O (Sistema Operacional).
 <br>
 
-Utilizamos os melhores recursos encontrados para chegar ao resultado final de nossa APS onde criamos uma ferramenta que pode ser usado tanto para fazer o desbloqueio de seu smartphone tanto para fazer um reconhecimento facial forense por exemplo. 
+Utilizamos os melhores recursos encontrados para chegar ao resultado final de nossa APS onde criamos uma ferramenta que pode ser usado tanto para fazer o desbloqueio de seu smartphone tanto para fazer um reconhecimento facial forense, por exemplo.
 
 ---
 ## Referencial Teórico
@@ -110,15 +110,15 @@ Utilizamos os melhores recursos encontrados para chegar ao resultado final de no
 A indústria de reconhecimento facial fez um progresso impressionante em pouco tempo e não só facial, mas classificação de formas também faz parte dessa evolução. Hoje, com aplicativos instalados no seu celular você consegue desbloquear eles só com o reconhecimento facial, e não só desbloquear, mas fazer várias funções que eles podem fazer com o reconhecimento facial ou de imagem.
 <br>
 
-O primeiro relato do desenvolvimento do reconhecimento facial foi em 1964. 
+O primeiro relato do desenvolvimento do reconhecimento facial foi em 1964.
 Com um livro de fotos e uma fotografia de investigação, Bledsoe usou um programa de computador para cruzar a identidade do suspeito com outra no livro de fotos. Apesar de seu método ter se tornado popular, na época, ele era caro e lento em termos computacionais: o pesquisador conseguia processar somente 40 fotos por hora. Depois disso essa tecnologia foi evoluindo e evoluindo até chegar ao ponto que estamos hoje.
-Uma parte disso é realizado pela manipulação de imagem, a manipulação de uma imagem por um computador, no qual tem-se como entrada e saída uma imagem, é chamada de Processamento Digital de Imagens. O objetivo de se usar esse processamento é melhorar o aspecto visual das imagens possibilitando uma melhor interpretação, facilitando a extração de informações das mesmas.
+Uma parte disso é realizado pela manipulação de imagem, a manipulação de uma imagem por um computador, no qual se tem como entrada e saída uma imagem, é chamada de Processamento Digital de Imagens. O objetivo de se usar esse processamento é melhorar o aspecto visual das imagens possibilitando uma melhor interpretação, facilitando a extração de informações das mesmas.
 <br>
 
-Pessoas estão familiarizadas com o reconhecimento facial por causa do Face ID do Iphone, pois ele usa o reconhecimento para desbloquear o celular, ele simplesmente a identifica e reconhece como sendo a proprietária única do dispositivo, limitando o acesso de outros. O Face ID garante autenticação intuitiva e segura e é ativado pelo sistema de câmera TrueDepth de última geração, que usa tecnologias avançadas para mapear a geometria do rosto com precisão.
+Pessoas estão familiarizadas com o reconhecimento facial por causa do Face ID do Iphone, pois, ele usa o reconhecimento para desbloquear o celular, ele simplesmente a identifica e reconhece como sendo a proprietária única do dispositivo, limitando o acesso de outros. O Face ID garante autenticação intuitiva e segura e é ativado pelo sistema de câmera TrueDepth de última geração, que usa tecnologias avançadas para mapear a geometria do rosto com precisão.
 <br>
 
-As leis também podem usar o reconhecimento facial, e as agências de aplicação da lei em vários países estão usando cada vez mais a tecnologia. A polícia tirou fotos de prisioneiros da polícia e as comparou com imagens de bancos de dados de reconhecimento facial locais, estaduais e federais.
+As leis também podem usar o reconhecimento facial, e as agências de aplicação da lei em vários países estão usando cada vez mais a tecnologia. A polícia tirou fotos de prisioneiros da polícia e as comparou com imagens de bancos de dados de reconhecimento facial, estaduais e federais.
 <br>
 
 Assim que a foto do prisioneiro for tirada, ela será adicionada ao banco de dados para verificação quando a polícia fizer uma busca criminal.
@@ -128,14 +128,14 @@ O reconhecimento facial móvel permite que os funcionários usem smartphones, ta
 O reconhecimento facial ajuda a identificar terroristas ou outros criminosos, facilita o rastreamento de assaltantes, ladrões e invasores.
 <br>
 
-Para conseguir fazer um programa de reconhecimento facial além de utilizar o python também utilizamos bibliotecas para nos ajudar no processo.
+Para conseguir fazer um programa de reconhecimento facial além de utilizar o Python também utilizamos bibliotecas para nos ajudar no processo.
 Uma dessas bibliotecas foi o Opencv.
 <br>
 
 Opencv é uma biblioteca de código aberto útil para aplicações de visão computacional, como análise de vídeo e análise de imagem. OpenCV é escrito em C ++ e possui mais de 2.500 algoritmos otimizados. Muito utilizado quando criamos aplicativos para visão computacional que não queremos construir do zero, podemos usar esta biblioteca para começar a nos concentrar nos problemas do mundo real. Existem muitas empresas que usam essa biblioteca hoje, como Google, Amazon, Microsoft e Toyota. Muitos pesquisadores e desenvolvedores contribuem. 
 <br>
 
-Outra biblioteca utilizada foi o Face Recognition, uma biblioteca capaz de reconhecer e manipular rostos em python, uma biblioteca que consegue encontrar e distinguir rostos em uma imagem, podendo reconhecer um rosto colocar o nome da pessoa na imagem.
+Outra biblioteca utilizada foi o Face Recognition, uma biblioteca capaz de reconhecer e manipular rostos em Python, uma biblioteca que consegue encontrar e distinguir rostos em uma imagem, podendo reconhecer um rosto colocar o nome da pessoa na imagem.
 <br>
 
 Obtenha a posição e o contorno dos olhos, nariz, boca e queixo de cada pessoa.
