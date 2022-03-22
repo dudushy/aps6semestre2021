@@ -129,10 +129,10 @@ O reconhecimento facial ajuda a identificar terroristas ou outros criminosos, fa
 <br>
 
 Para conseguir fazer um programa de reconhecimento facial além de utilizar o Python também utilizamos bibliotecas para nos ajudar no processo.
-Uma dessas bibliotecas foi o Opencv.
+Uma dessas bibliotecas foi o OpenCV.
 <br>
 
-Opencv é uma biblioteca de código aberto útil para aplicações de visão computacional, como análise de vídeo e análise de imagem. OpenCV é escrito em C ++ e possui mais de 2.500 algoritmos otimizados. Muito utilizado quando criamos aplicativos para visão computacional que não queremos construir do zero, podemos usar esta biblioteca para começar a nos concentrar nos problemas do mundo real. Existem muitas empresas que usam essa biblioteca hoje, como Google, Amazon, Microsoft e Toyota. Muitos pesquisadores e desenvolvedores contribuem. 
+OpenCV é uma biblioteca de código aberto útil para aplicações de visão computacional, como análise de vídeo e análise de imagem. OpenCV é escrito em C ++ e possui mais de 2.500 algoritmos otimizados. Muito utilizado quando criamos aplicativos para visão computacional que não queremos construir do zero, podemos usar esta biblioteca para começar a nos concentrar nos problemas do mundo real. Existem muitas empresas que usam essa biblioteca hoje, como Google, Amazon, Microsoft e Toyota. Muitos pesquisadores e desenvolvedores contribuem. 
 <br>
 
 Outra biblioteca utilizada foi o Face Recognition, uma biblioteca capaz de reconhecer e manipular rostos em Python, uma biblioteca que consegue encontrar e distinguir rostos em uma imagem, podendo reconhecer um rosto colocar o nome da pessoa na imagem.
@@ -176,7 +176,7 @@ Para fazermos o identificador facial, utilizamos a linguagem Python e algumas de
 <img alt="plano_desenvolvimento_aplicacao2" src="img/plano_desenvolvimento_aplicacao2.png" />
 <br>
 
-Oob: O link dos projetos estará nas fontes bibliograficas.
+Obs: O link dos projetos estará nas fontes bibliograficas.
 <br>
 
 Agora precisamos usar nosso objetivo para fazer isso. Python é muito famoso por sua sintaxe de programação simples, legibilidade e comandos tornam a codificação mais fácil e eficiente, razão pela qual é a linguagem de programação mais popular e preferida.
@@ -218,7 +218,7 @@ O **NumPy** é uma extensão de um Array Python, que lida apenas com Arrays Unid
 Agora a biblioteca **OS** contém módulos embutidos (escritos em C) que fornecem acesso à funcionalidade do sistema, como E/S de arquivos que de outra forma seriam inacessíveis para programadores Python, bem como módulos escritos em Python que fornecem soluções padronizadas para muitos problemas que ocorrem em programação cotidiana.
 <br>
 
-Para mostrar as informações desse software utilizamos a webcam, com OpenCv para nos mostrar de forma mais clara a área do rosto, e também o nome da pessoa sendo reconhecida.
+Para mostrar as informações desse software utilizamos a webcam, com OpenCV para nos mostrar de forma mais clara a área do rosto, e também o nome da pessoa sendo reconhecida.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao7" src="img/plano_desenvolvimento_aplicacao7.png" />
