@@ -92,7 +92,7 @@ Basicamente, o reconhecimento facial funciona fazendo um cálculo dos principais
 Para realizarmos nosso trabalho utilizamos algumas bibliotecas do Python como  OpenCV, Face Recognition, Numpy e OS.
 <br>
 
-OpenCV é uma biblioteca Multiplataforma dedicada a projetos de visão computacional OpenCV possui módulos de Processamento de Imagens e Vídeo I/O, Estrutura de dados, Álgebra Linear, GUI (Interface gráfica do usuário).
+OpenCV é uma biblioteca Multiplataforma dedicada a projetos de visão computacional OpenCV possui módulos de Processamento de Imagens e Vídeo I/O, Estrutura de Dados, Álgebra Linear, GUI (Interface gráfica do usuário).
 <br>
 
 Face Recognition  é uma ferramenta de processamento de imagens onde ela faz o mapeamento da imagem no caso um rosto para que possa estar efetuando o cálculo de padrões onde é feito o encoding das imagens para reconhecimento facial.
@@ -158,16 +158,16 @@ Tendo conhecimento de todas essas informações estávamos apto para conseguir f
 ---
 ## Plano de desenvolvimento da aplicação
 
-Trabalho em equipe é muito importante e essencial, pois se a sua equipe não está satisfeita, eles não iram conseguir dar o máximo de si.
+Trabalho em equipe é muito importante e essencial, pois, se a sua equipe não está satisfeita, eles não iram conseguir dar o máximo de si.
 <br>
 
-A primeira parte do nosso Plano de desenvolvimento foi fazermos uma reunião e discutir todas as ideias de todos os integrantes do grupo, primeiramente conversamos sobre o processamento de imagens em si, fazendo um levantamento de requisitos, como por exemplo o que deveria ser, o que poderíamos fazer, como poderíamos fazer, o que poderíamos usar de recursos, após termos uma ideia inicial decidimos que seria melhor dividir o nosso grupo em pequenas equipes, cada uma responsável pela entrega de algo no projeto, como por exemplo um grupo no desenvolvimento python, para fazermos o código que processa as propriedades de uma  imagem e utiliza as para algum outro processamento da mesma , enquanto outro grupo cuidava de todo o objetivo logico do nosso objetivo estipulado.
+A primeira parte do nosso Plano de desenvolvimento foi fazermos uma reunião e discutir todas as ideias de todos os integrantes do grupo, primeiramente conversamos sobre o processamento de imagens em si, fazendo um levantamento de requisitos, como, por exemplo, o que deveria ser, o que poderíamos fazer, como poderíamos fazer, o que poderíamos usar de recursos, após termos uma ideia inicial decidimos que seria melhor dividir o nosso grupo em pequenas equipes, cada uma responsável pela entrega de algo no projeto, como, por exemplo, um grupo no desenvolvimento Python, para fazermos o código que processa as propriedades de uma imagem e utiliza as para algum outro processamento da mesma, enquanto outro grupo cuidava de todo o objetivo lógico do nosso objetivo estipulado.
 <br>
 
 Observando alguns vídeos de projetos semelhantes ao nosso objetivo e algumas páginas para fazermos o software, tivemos uma noção maior de como o trabalho seria feito.
 <br>
 
-Para fazermos o identificador facial, utilizamos a linguagem python e algumas de suas bibliotecas. Mas antes algo que nos que deu uma boa ideia da onde começar eram vários outros projetos já existentes que tratam imagem com objetivos diferentes, não utilizamos o mesmo objetivo que esses projetos, mas nos apontou uma direção para seguir.
+Para fazermos o identificador facial, utilizamos a linguagem Python e algumas de suas bibliotecas. Mas antes algo que nos que deu uma boa ideia da onde começar, eram vários outros projetos já existentes que tratam imagem com objetivos diferentes, não utilizamos o mesmo objetivo que esses projetos, mas nos apontou uma direção para seguir.
 <br>
 
 <img alt="plano_desenvolvimento_aplicacao1" src="img/plano_desenvolvimento_aplicacao1.png" />
@@ -176,7 +176,7 @@ Para fazermos o identificador facial, utilizamos a linguagem python e algumas de
 <img alt="plano_desenvolvimento_aplicacao2" src="img/plano_desenvolvimento_aplicacao2.png" />
 <br>
 
-Obs: O link dos projetos estará nas fontes bibliograficas.
+Oob: O link dos projetos estará nas fontes bibliograficas.
 <br>
 
 Agora precisamos usar nosso objetivo para fazer isso. Python é muito famoso por sua sintaxe de programação simples, legibilidade e comandos tornam a codificação mais fácil e eficiente, razão pela qual é a linguagem de programação mais popular e preferida.
@@ -194,7 +194,7 @@ Quando apareceu pela primeira vez, era capaz de fornecer herança, vários tipos
 <img alt="plano_desenvolvimento_aplicacao3" src="img/plano_desenvolvimento_aplicacao3.png" />
 <br>
 
-Junto com o python utilizamos suas bibliotecas **OpenCV**, **Face recognition**, **Numpy** e **OS** para facilitar o processo.
+Junto com o Python utilizamos suas bibliotecas **OpenCV**, **Face recognition**, **Numpy** e **OS** para facilitar o processo.
 <br>
 
 **OpenCV** é a principal biblioteca de código aberto para a visão computacional, processamento de imagem e aprendizagem de máquina, e agora apresenta a aceleração de GPU para operação em tempo real
@@ -241,7 +241,7 @@ Nosso projeto, nós iremos criar uma biblioteca pessoal de rostos, processando e
 <img alt="projeto_estrutura_programa1" src="img/projeto_estrutura_programa1.png" />
 <br>
 
-Primeiro no processo nós temos o processo de reconhecer estes rostos, e guardar informações desses rostos como distancias de pontos cruciais, identificados pela biblioteca que usamos com o método HOG.. A ideia básica do HOG é dividir a imagem em pequenas unidades conectadas.
+Primeiro no processo, nós temos o processo de reconhecer estes rostos, e guardar informações desses rostos como distancias de pontos cruciais, identificados pela biblioteca que usamos com o método HOG. A ideia básica do HOG é dividir a imagem em pequenas unidades conectadas.
 <br>
 
 <img alt="projeto_estrutura_programa2" src="img/projeto_estrutura_programa2.png" />
@@ -265,13 +265,13 @@ Assim, armazenando essas coordenadas, nós as resumimos em uma lista e realizamo
 <img alt="projeto_estrutura_programa5" src="img/projeto_estrutura_programa5.png" />
 <br>
 
-Em primeiro lugar, neste processo, temos o processo de reconhecer essas faces, e armazenar as informações dessas faces como as distâncias de ponto-chave do reconhecimento da biblioteca que usamos usando o método HOG, para armazenar essas coordenadas, vamos resumi-los como uma lista e, em seguida, executar o processo de implementação do identificador nos dados externos do código, Neste caso, o dado externo é a câmera (webcam).
+Em primeiro lugar, neste processo, temos o processo de reconhecer essas faces, e armazenar as informações dessas faces como as distâncias de ponto-chave do reconhecimento da biblioteca que usamos usando o método HOG, para armazenar essas coordenadas, vamos resumi-los como uma lista e, em seguida, executar o processo de implementação do identificador nos dados externos do código, neste caso, o dado externo é a câmera (webcam).
 <br>
 
 <img alt="projeto_estrutura_programa6" src="img/projeto_estrutura_programa6.png" />
 <br>
 
-Nesse caso o dado externo está sendo a câmera, que está sempre verificando se existem rostos na imagem, processando esses rostos gerando as coordenadas deles, e ao mesmo tempo já comparando essas coordenadas com as salvas de nossa biblioteca, assim concluindo que a coordenada mais próxima, ou seja, as distancias dos rostos que são mais semelhantes, nos retornando como a possível mesma pessoa e assim que isso é identificado, irá mostrar o nome da pessoa.
+Nesse caso o dado externo está sendo a câmera, que está sempre verificando se existem rostos na imagem, processando esses rostos gerando as coordenadas deles, e, ao mesmo tempo, já comparando essas coordenadas com as salvas de nossa biblioteca, assim concluindo que a coordenada mais próxima, ou seja, as distâncias dos rostos que são mais semelhantes, nos retornando como a possível mesma pessoa e assim que isso é identificado, irá mostrar o nome da pessoa.
 
 ---
 ## Relatório com as linhas de código
@@ -315,7 +315,7 @@ Criando variável para captura de tela, com entrada de qualquer câmera no compu
 <img alt="relatorio_linhas_codigo6" src="img/relatorio_linhas_codigo6.png" />
 <br>
 
-Iniciamos um loop infinito, que lerá cada frame capturado pela câmera conectada em tempo real. Redimensionando e convertendo as cores das imagens vistas para logo em seguida analisar os dados com maior facilidade e identificar os rostos que estão aparecendo na câmera com a função `face_locations` da biblioteca `face_recognition`. Salvando na variável `rostoAtual`, para depois utilizar a função `face_encodings`, onde serão calculadas as coordenadas desses rostos que simultaneamente estão sendo capturados pela câmera e salvos na variável `encodamentoAtual`.  
+Iniciamos um loop infinito, que lerá cada frame capturado pela câmera conectada em tempo real. Redimensionando e convertendo as cores das imagens vistas para logo em seguida analisar os dados com maior facilidade e identificar os rostos que estão aparecendo na câmera com a função `face_locations` da biblioteca `face_recognition`. Salvando na variável `rostoAtual`, para depois utilizar a função `face_encodings`, onde serão calculadas as coordenadas desses rostos que simultaneamente estão sendo capturados pela câmera e salvos na variável `encodamentoAtual`.
 <br>
 
 <img alt="relatorio_linhas_codigo7" src="img/relatorio_linhas_codigo7.png" />
@@ -327,7 +327,7 @@ Aqui o algoritmo irá comparar os rostos, verificar os distanciamento dos pontos
 <img alt="relatorio_linhas_codigo8" src="img/relatorio_linhas_codigo8.png" />
 <br>
 
-Agora será verificado se os rosto de ambas as imagens estão correspondendo. Logo depois com a biblioteca opencv acontecerá o tratamento das legendas (em letras maiúsculas) formando um retângulo para sinalizar que um rosto foi encontrado.
+Agora será verificado se os rostos de ambas as imagens estão correspondendo. Logo depois com a biblioteca OpenCV acontecerá o tratamento das legendas (em letras maiúsculas) formando um retângulo para sinalizar que um rosto foi encontrado.
 <br>
 
 <img alt="relatorio_linhas_codigo9" src="img/relatorio_linhas_codigo9.png" />
