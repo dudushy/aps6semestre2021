@@ -235,13 +235,13 @@ O GitHub é uma **rede social de desenvolvedores**. A primeira parte do nome, �
 ---
 ## Projeto (estrutura) do programa
 
-Nosso projeto, nós iremos criar uma biblioteca pessoal de rostos, processando esses rostos e guardando em listas os valores deles.
+Nosso projeto, iremos criar uma biblioteca pessoal de rostos, processando esses rostos e guardando em listas os valores deles.
 <br>
 
 <img alt="projeto_estrutura_programa1" src="img/projeto_estrutura_programa1.png" />
 <br>
 
-Primeiro no processo, nós temos o processo de reconhecer estes rostos, e guardar informações desses rostos como distancias de pontos cruciais, identificados pela biblioteca que usamos com o método HOG. A ideia básica do HOG é dividir a imagem em pequenas unidades conectadas.
+Primeiro no processo, temos o processo de reconhecer estes rostos, e guardar informações desses rostos como distancias de pontos cruciais, identificados pela biblioteca que usamos com o método HOG. A ideia básica do HOG é dividir a imagem em pequenas unidades conectadas.
 <br>
 
 <img alt="projeto_estrutura_programa2" src="img/projeto_estrutura_programa2.png" />
